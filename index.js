@@ -74,5 +74,5 @@ function RandomFact(){
     console.log(RndNum);
     NotifyChannel.send("Hey @everyone, think about it, "+RndFact);
 }
-bot.login(variables.BotToken);       
+bot.login(process.env.BOT_TOKEN);       
 //https://www.youtube.com/watch?v=RQmEERvqq70   
